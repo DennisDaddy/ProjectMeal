@@ -6,9 +6,7 @@ gem 'faker'
 gem 'fog'
 gem 'carrierwave'
 gem 'mini_magick'
-gem  'devise'
-gem 'paperclip'
-gem 'masonry-rails'
+gem "font-awesome-rails"
 
 
 gem 'will_paginate'
@@ -67,7 +65,7 @@ group :test do
 group :production do
 gem 'pg'
 gem 'puma', '~> 3.0'
-
+gem 'rails_12factor'
 
 end
 
